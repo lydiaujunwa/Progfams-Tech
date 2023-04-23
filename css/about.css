@@ -1,0 +1,71 @@
+body {
+    font-family: "Sansita Swashed",cursive;
+}
+.about-section{
+    padding: 90px 0;
+}
+.about-title{
+    font-size: 30px;
+    letter-spacing: 0;
+    margin: 0 0 39px;
+    padding: 0 0 11px;
+    position: relative;
+    color: darkgreen;
+}
+.about-text{
+    color: gray;
+    font-size: 18px;
+    margin: 0 0 35px;
+    font-family: "Peddana", serif;
+}
+button:not(:disabled){
+    cursor: pointer;
+}
+.about-more{
+    border: 1px solid black;
+    border-radius: 25px;
+    color: gray;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0;
+    padding: 14px 40px;
+}
+.self{
+    vertical-align: middle;
+    border-style: none;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.feature .feature-box .iconset{
+    background-color: white none repeat scroll 0 0;
+    float: left;
+    position: relative;
+    width: 18%;
+}
+.icon{
+    padding: 0;
+    border: 1px solid #095548;
+    border-radius: 100px;
+    color: #095548;
+    font-size: 28px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    width: 70px;
+}
+.feature .feature-box .feature-content{
+    float: left;
+    padding-left: 28px;
+    width: 78%;
+}
+.feature .feature-box .feature-content h4{
+    color: black;
+    font-size: 18px;
+    margin: 0 0 5px;
+}
+.feature .feature-box .feature-content p{
+    color: gray;
+    font-size: 18px;
+    font-family: "Peddana", serif;
+}
